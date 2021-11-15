@@ -110,7 +110,7 @@ QUnit.test("Largest",
         assert.ok( util.largest([0,1,2]) == 2, "2 is the largest of 0,2 & 2" );
         assert.ok( util.largest([1,1,3]) == 3, "2 is the largest of 1,1 & 3" );
         assert.ok( util.largest([2,2,2]) == 2, "2 is the largest of 2, 2 & 2");
-        assert.ok( util.largest([1,2,3,4,5,6,7,8,3,-5]) == 8, "8 is th largest" );
+        assert.ok( util.largest([1,2,3,4,5,6,7,8,3,-5]) == 8, "8 is the largest" );
         assert.ok( util.largest([1]) == 1, "single element array works") ;
     }
 );

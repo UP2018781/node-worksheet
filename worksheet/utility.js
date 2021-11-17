@@ -1,5 +1,8 @@
 function add(a,b) {
-    return a+b;
+  const num1 = parseInt(a);
+  const num2 = parseInt(b);
+  const result = (num1+num2);
+  return result;
 }
 module.exports.add = add;
 
